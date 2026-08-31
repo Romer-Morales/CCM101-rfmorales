@@ -1,1 +1,16 @@
+# Reflection – Laboratory Activity 2
 
+1. Which cloud infrastructure component do you think is the most important? Why?
+For me Compute is one of the most important components because without processing power, applications cannot run that all...
+
+2. How does Linux support cloud computing?
+from my research Linux is the most popular operating system used in cloud servers because it is stable, secure, open-source, and uses fewer resources...
+
+3. Why is technical documentation important before deploying infrastructure?
+i think Documentation helps the team understand the current environment, avoid mistakes, and make better design decisions...
+
+4. What new skills did you learn during this laboratory activity?
+I learned how to investigate a Linux server, compare AWS, Azure, and Google Cloud services, and create a simple cloud architecture diagram and i learn to use the draw.io...
+
+5. How has your GitHub portfolio improved after completing this mission?
+My GitHub portfolio now contains a second laboratory folder with proper documentation, screenshots, and a professional structure that all...

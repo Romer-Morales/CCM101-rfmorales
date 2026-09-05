@@ -7,7 +7,7 @@ Amazon Web Services (AWS) is the world’s leading cloud computing platform. It 
 AWS has the largest global infrastructure with many Regions and Availability Zones around the world.
 
 ## Cloud Management Console
-AWS Management Console (https://console.aws.amazon.com)
+AWS Management Console (https://aws.amazon.com)
 
 ## Four Core Services
 1. **Amazon EC2** – Virtual servers (Compute)

@@ -7,7 +7,7 @@ Google Cloud Platform is Google’s cloud service. It is well-known for data ana
 GCP has a strong global network built on Google’s infrastructure.
 
 ## Cloud Management Console
-Google Cloud Console (https://console.cloud.google.com)
+Google Cloud Console (https://cloud.google.com)
 
 ## Four Core Services
 1. **Compute Engine** – Virtual machines

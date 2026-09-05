@@ -25,3 +25,14 @@ Google Cloud Platform is strongest in Artificial Intelligence, Machine Learning,
 
 ### 4. Which cloud platform would you personally choose and why?
 (Write your own honest answer here in 2–3 sentences)
+
+
+## Equivalent Cloud Services
+
+| Service Category     | AWS                  | Azure                        | GCP                     |
+|----------------------|----------------------|------------------------------|-------------------------|
+| Virtual Machine      | Amazon EC2           | Virtual Machines             | Compute Engine          |
+| Object Storage       | Amazon S3            | Blob Storage                 | Cloud Storage           |
+| Identity Management  | AWS IAM              | Microsoft Entra ID           | Cloud IAM               |
+| SQL Database         | Amazon RDS           | Azure SQL Database           | Cloud SQL               |
+| Kubernetes           | Amazon EKS           | Azure Kubernetes Service     | Google Kubernetes Engine|

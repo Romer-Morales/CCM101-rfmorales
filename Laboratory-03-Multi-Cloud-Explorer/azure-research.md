@@ -7,7 +7,7 @@ Microsoft Azure is Microsoft’s cloud computing platform. It is especially stro
 Azure has a large number of regions worldwide and continues to expand.
 
 ## Cloud Management Console
-Azure Portal (https://portal.azure.com)
+Azure Portal (https://azure.com)
 
 ## Four Core Services
 1. **Virtual Machines** – Compute

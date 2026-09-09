@@ -24,7 +24,9 @@ Microsoft Azure best integrates with Microsoft technologies such as Windows Serv
 Google Cloud Platform is strongest in Artificial Intelligence, Machine Learning, and Kubernetes (Google Kubernetes Engine).
 
 ### 4. Which cloud platform would you personally choose and why?
-(Write your own honest answer here in 2–3 sentences)
+i chose my favorite  Google Cloud Platform because its interface is simple clean and easy to undertand as a student it also
+integrates well with familliar google tools and offers strong support for modern tecnologies like ai and cloud native development
+which i want to learn more yun lang
 
 
 ## Equivalent Cloud Services

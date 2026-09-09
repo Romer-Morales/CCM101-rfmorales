@@ -1,7 +1,7 @@
 # Reflection – Laboratory Activity 3
 
 1. Which cloud platform impressed you the most?
-(Write your answer)
+For me Google Cloud Platform i impressed me the most kasi i found its interface clean straightforward and easy to navigate yun lang 
 
 2. What similarities exist among AWS, Azure, and GCP?
 All three providers offer similar core services such as virtual machines, object storage, virtual networks, and identity management...

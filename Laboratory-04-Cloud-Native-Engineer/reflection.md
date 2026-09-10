@@ -1,1 +1,16 @@
+# Reflection – Laboratory Activity 4
 
+1. How does the boot time and setup process of a Docker container compare to installing an operating system on a Virtual Machine?
+A Docker container starts in just a few seconds, while installing and booting a full Virtual Machine can take several minutes...
+
+2. Why is port mapping (-p 8080:80) necessary when running a web server inside a container?
+Port mapping is needed so that we can access the web server running inside the container from outside using the host’s port...
+
+3. What happens to the data inside a container when you use the docker rm command?
+When you remove a container using docker rm, all data stored inside that container is permanently deleted...
+
+4. How do you think containerization changes the way software developers and IT operations teams work together (DevOps)?
+Containers make it easier for developers and operations teams to work together because the application runs the same way in development, testing, and production...
+
+5. How is your GitHub portfolio evolving?
+My GitHub portfolio continues to grow. It now contains four laboratory activities with clear documentation, screenshots, and professional structure...

@@ -10,4 +10,4 @@
 
 ## Why Object Storage is Best for the Client
 
-Object Storage is the best choice for storing millions of user-uploaded images because it is highly scalable and designed for large amounts of unstructured data. Unlike traditional hard drives, it can easily grow as more photos are uploaded and it is very cost-effective for this type of data.
+For me object Storage is the best choice for storing millions of user-uploaded images because it is highly scalable and designed for large amounts of unstructured data. Unlike traditional hard drives, it can easily grow as more photos are uploaded and it is very cost-effective for this type of data in short easy access you can click in the images or file will show that all.

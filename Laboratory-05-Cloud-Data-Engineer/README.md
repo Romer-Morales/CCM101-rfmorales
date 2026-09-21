@@ -1,9 +1,3 @@
-
-#### 2. Update the Laboratory README.md
-
-Open `Laboratory-05-Cloud-Data-Engineer/README.md` and paste this:
-
-```markdown
 # Laboratory Activity 5 – The Cloud Data Engineer
 
 ## Mission Overview

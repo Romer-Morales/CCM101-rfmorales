@@ -1,1 +1,80 @@
+version: '3.8'
 
+services:
+  db:
+    image: mariadb:10.11
+    container_name: nextcloud-db
+    restart: always
+    command: --transaction-isolation=READ-COMMITTED --binlog-format=ROW
+    environment:
+      MYSQL_ROOT_PASSWORD: RootPassword123
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud
+      MYSQL_PASSWORD: NextcloudPass123
+    volumes:
+      - db_data:/var/lib/mysql
+    networks:
+      - nextcloud-network
+
+  app:
+    image: nextcloud:latest
+    container_name: nextcloud-app
+    restart: always
+    ports:
+      - "80:80"
+    environment:
+      MYSQL_HOST: db:3306
+      MYSQL_DATABASE: nextcloud
+      MYSQL_USER: nextcloud
+      MYSQL_PASSWORD: NextcloudPass123
+    volumes:
+      - nextcloud_data:/var/www/html
+    networks:
+      - nextcloud-network
+    depends_on:
+      - db
+
+volumes:
+  db_data:
+  nextcloud_data:
+
+networks:
+  nextcloud-network:
+    driver: bridge
+```[cite: 2]
+
+### Stack Execution & Verification
+```bash
+# Launch containers in detached background mode
+docker compose up -d
+
+# Verify container status and active port mappings
+docker compose ps
+```[cite: 2]
+
+---
+
+## 3. Host Firewall Hardening (UFW)
+
+```bash
+# Enforce a strict Default Deny incoming policy
+sudo ufw default deny incoming
+sudo ufw default allow outgoing
+
+# Allow essential ports (SSH and HTTP)
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+
+# Enable firewall and inspect rule details
+sudo ufw enable
+sudo ufw status verbose
+```[cite: 2]
+
+---
+
+## 4. Disaster Recovery & Automation
+
+### Create Backup Script
+```bash
+# Create and edit script file
+nano /home/ubuntu/backup-nextcloud.sh
